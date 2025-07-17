@@ -45,7 +45,7 @@ app.post("/api/generate-text", async (req, res) => {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          model: "mistralai/mistral-small-3.2-24b-instruct:free", // o qualsiasi altro modello
+          model: "google/gemini-2.0-flash-exp:free", // o qualsiasi altro modello
           messages: [
             {
               role: "user",
